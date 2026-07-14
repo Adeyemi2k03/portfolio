@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+:root,[data-theme='light']{--bg:#f4f6f8;--surface:#ffffff;--border:#e2e6ea;--text:#1a202c;--muted:#718096;--accent:#00bcd4;--accent-text:#ffffff;}
+[data-theme='dark']{--bg:#0d1117;--surface:#161b22;--border:#21262d;--text:#e2e8f0;--muted:#4a5568;--accent:#00bcd4;--accent-text:#ffffff;}
+*{box-sizing:border-box;}
+body{background:var(--bg);color:var(--text);font-family:'Space Grotesk',sans-serif;margin:0;-webkit-font-smoothing:antialiased;transition:background 0.25s ease,color 0.25s ease;}
+::-webkit-scrollbar{width:4px;}::-webkit-scrollbar-track{background:var(--bg);}::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px;}
+.marquee-track{display:flex;white-space:nowrap;animation:marquee 22s linear infinite;}
+@keyframes marquee{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
