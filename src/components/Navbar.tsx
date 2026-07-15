@@ -12,8 +12,8 @@ const navLinks = [
   { to: '/contact', label: 'Contact' },
 ]
 const socialLinks = [
-  { label: 'Email', href: 'https://mail.google.com/mail/?view=cm&to=olowo.adejiboa@gmail.com' },
-  { label: 'X (Twitter)', href: 'https://x.com/' },
+  { label: 'Email', href: 'https://mail.google.com/mail/?view=cm&to=olowo.adejibola@gmail.com' },
+  { label: 'X (Twitter)', href: 'https://x.com/AdeyemiAji8658' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/adeyemi-ajibola-257604289/' },
   { label: 'GitHub', href: 'https://github.com/Adeyemi2k03' },
 ]
