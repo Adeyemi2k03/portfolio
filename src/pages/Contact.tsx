@@ -52,8 +52,8 @@ export default function Contact() {
       </div>
 
       <div className="flex gap-3 flex-wrap">
-        <a href="https://mail.google.com/mail/?view=cm&amp;to=olowo.adejiboa@gmail.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium" style={{ background: 'var(--surface)', border: '1px solid var(--border)', color: 'var(--text)' }}>
-          <Mail size={14} style={{ color: 'var(--accent)' }} /> olowo.adejiboa@gmail.com
+        <a href="https://mail.google.com/mail/?view=cm&amp;to=olowo.adejibola@gmail.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium" style={{ background: 'var(--surface)', border: '1px solid var(--border)', color: 'var(--text)' }}>
+          <Mail size={14} style={{ color: 'var(--accent)' }} /> olowo.adejibola@gmail.com
         </a>
         <a href="https://x.com/AdeyemiAji8658" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium" style={{ background: 'var(--surface)', border: '1px solid var(--border)', color: 'var(--text)' }}>
           <span style={{ color: 'var(--accent)', fontWeight: 700, fontSize: 14 }}>𝕏</span> @AdeyemiAji8658

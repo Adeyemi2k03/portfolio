@@ -32,8 +32,8 @@ export default function About() {
       </div>
       <div className="flex gap-3 flex-wrap">
         <Link to="/contact" className="flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold transition-opacity hover:opacity-80" style={{ background: 'var(--accent)', color: 'var(--accent-text)' }}>Get in Touch <ArrowUpRight size={14} /></Link>
-        <a href="https://mail.google.com/mail/?view=cm&amp;to=olowo.adejiboa@gmail.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium border" style={{ borderColor: 'var(--border)', color: 'var(--text)' }}>
-          <Mail size={14} style={{ color: 'var(--accent)' }} /> olowo.adejiboa@gmail.com
+        <a href="https://mail.google.com/mail/?view=cm&amp;to=olowo.adejibola@gmail.com" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium border" style={{ borderColor: 'var(--border)', color: 'var(--text)' }}>
+          <Mail size={14} style={{ color: 'var(--accent)' }} /> olowo.adejibola@gmail.com
         </a>
       </div>
     </div>
